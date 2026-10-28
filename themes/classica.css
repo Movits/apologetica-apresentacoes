@@ -1,0 +1,29 @@
+/* Clássica: a identidade do app. Navy profundo da "noite na catedral", ouro
+   e texto cor de creme, títulos em Cormorant Garamond. Valores tirados de
+   src/theme/palette.js do apologetica-app (LIGHT.primary, accent, DARK.*). */
+[data-theme="classica"] {
+  --letterbox: #060d16;
+  --canvas-solid: #0f2135;
+  --canvas-bg:
+    radial-gradient(1500px 1050px at 86% -12%, rgba(29, 66, 104, 0.95) 0%, rgba(26, 58, 92, 0) 64%),
+    radial-gradient(1100px 760px at -6% 112%, rgba(201, 168, 76, 0.11) 0%, rgba(201, 168, 76, 0) 62%),
+    linear-gradient(162deg, #122842 0%, #0c1b2d 100%);
+  --scrim: #0c1b2d;
+  --ink: #ece4d0;
+  --ink-strong: #f7f1e3;
+  --ink-muted: #b8c4d8;
+  --ink-faint: #8593a8;
+  --accent: #c9a84c;
+  --accent-strong: #e2c47a;
+  --accent-text: #d4b86a;
+  --hl-ink: #e6c878;
+  --ul: #c9a84c;
+  --rule: rgba(212, 184, 106, 0.24);
+  --rule-strong: rgba(212, 184, 106, 0.5);
+  --danger: #f28b82;
+  --grain-opacity: 0.07;
+  --grain-blend: overlay;
+  --qmark-opacity: 0.18;
+  --frame-shadow: 0 40px 90px rgba(0, 0, 0, 0.5), 0 6px 18px rgba(0, 0, 0, 0.35);
+  --font-display: var(--font-cormorant);
+}

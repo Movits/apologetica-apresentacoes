@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="classica" data-font="theme">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Apresentações</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 28 28%22%3E%3Crect width=%2228%22 height=%2228%22 rx=%226%22 fill=%22%231a3a5c%22/%3E%3Cpath d=%22M12 4h4v7h7v4h-7v9h-4v-9H5v-4h7z%22 fill=%22%23c9a84c%22/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/fonts/cormorant.css">
+<link rel="stylesheet" href="engine/deck.css">
+<link rel="stylesheet" href="engine/ui.css">
+<link rel="stylesheet" href="themes/classica.css">
+<link rel="stylesheet" href="themes/pergaminho.css">
+<link rel="stylesheet" href="themes/vitral.css">
+<link rel="stylesheet" href="themes/minimal.css">
+<style>
+  html, body { height: auto; }
+  body.gallery {
+    overflow: auto;
+    min-height: 100vh;
+    background: radial-gradient(1200px 800px at 85% -10%, #1a3a5c 0%, rgba(26, 58, 92, 0) 65%), #0b1828;
+  }
+  .gl { max-width: 1180px; margin: 0 auto; padding: 56px 16px 72px; box-sizing: border-box; }
+  .gl-head { display: grid; grid-template-columns: auto 1fr; gap: 14px 18px; align-items: center; margin-bottom: 48px; }
+  .gl-mark { width: 24px; height: 37px; fill: var(--ui-gold); }
+  .gl-head h1 { margin: 0; font-family: var(--font-cormorant); font-size: clamp(40px, 6vw, 64px); font-weight: 600; line-height: 1; letter-spacing: -0.01em; }
+  .gl-head p { grid-column: 1 / -1; margin: 0; max-width: 60ch; font-size: 16px; line-height: 1.55; color: var(--ui-muted); }
+  .gl-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 520px), 1fr)); gap: 48px 40px; }
+  .gl-deck a.gl-open { display: block; color: inherit; text-decoration: none; border-radius: 8px; }
+  .gl-thumb { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 8px; background: var(--letterbox); box-shadow: 0 0 0 1px var(--ui-line), 0 20px 50px rgba(0, 0, 0, 0.35); }
+  @media (hover: hover) and (pointer: fine) {
+    .gl-deck a.gl-open:hover .gl-thumb { box-shadow: 0 0 0 2px var(--ui-gold), 0 20px 50px rgba(0, 0, 0, 0.35); }
+  }
+  .gl-deck h2 { margin: 18px 0 6px; font-family: var(--font-cormorant); font-size: 34px; font-weight: 600; line-height: 1.1; }
+  .gl-desc { margin: 0 0 8px; font-size: 15px; line-height: 1.5; color: var(--ui-ink); }
+  .gl-meta { margin: 0; font-size: 14px; line-height: 1.5; color: var(--ui-muted); }
+  .gl-empty, .gl-error { font-size: 16px; color: var(--ui-muted); }
+  .gl-error { color: #f2b8a0; }
+  .gl-help { margin-top: 72px; padding-top: 28px; border-top: 1px solid var(--ui-line); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 32px 48px; }
+  .gl-help h2 { margin: 0 0 14px; font-family: var(--font-cormorant); font-size: 28px; font-weight: 600; }
+  .gl-help dl { display: grid; grid-template-columns: auto 1fr; gap: 9px 16px; margin: 0; font-size: 14px; }
+  .gl-help dt { white-space: nowrap; }
+  .gl-help dd { margin: 0; color: var(--ui-muted); align-self: center; }
+  .gl-help ol { margin: 0; padding-left: 20px; font-size: 14px; line-height: 1.6; color: var(--ui-muted); }
+  .gl-help ol strong { color: var(--ui-ink); font-weight: 600; }
+</style>
+</head>
+<body class="gallery apg-ui">
+<main class="gl">
+  <header class="gl-head">
+    <svg class="gl-mark" viewBox="0 0 18 28" aria-hidden="true"><path d="M7 0h4v9h7v4h-7v15H7V13H0V9h7z"/></svg>
+    <h1>Apresentações</h1>
+    <p>Os decks dos vídeos do canal. Abra um, aperte F para tela cheia e H para gravar sem interface.</p>
+  </header>
+
+  <ul class="gl-list" id="list"><li class="gl-empty">Carregando os decks…</li></ul>
+
+  <section class="gl-help" aria-label="Como usar">
+    <div>
+      <h2>Atalhos</h2>
+      <dl>
+        <dt><kbd>→</kbd> <kbd>Espaço</kbd> <kbd>PageDown</kbd></dt><dd>Próximo passo (clique também)</dd>
+        <dt><kbd>←</kbd> <kbd>PageUp</kbd></dt><dd>Passo anterior</dd>
+        <dt><kbd>Home</kbd> <kbd>End</kbd></dt><dd>Primeiro e último slide</dd>
+        <dt><kbd>F</kbd></dt><dd>Tela cheia</dd>
+        <dt><kbd>H</kbd></dt><dd>Modo gravação</dd>
+        <dt><kbd>O</kbd></dt><dd>Visão geral</dd>
+        <dt><kbd>P</kbd></dt><dd>Janela do apresentador</dd>
+        <dt><kbd>C</kbd> <kbd>T</kbd></dt><dd>Personalizar e trocar o tema</dd>
+        <dt><kbd>?</kbd></dt><dd>Todos os atalhos</dd>
+      </dl>
+    </div>
+    <div>
+      <h2>Para gravar no OBS</h2>
+      <ol>
+        <li>Abra o deck, aperte <strong>P</strong> e leve o apresentador para o outro monitor.</li>
+        <li>No deck, aperte <strong>F</strong> (tela cheia) e <strong>H</strong> (modo gravação).</li>
+        <li>No OBS, capture a janela ou o monitor em <strong>1920×1080</strong>.</li>
+        <li>Aperte <strong>Home</strong> para o primeiro slide entrar animado e comece a gravar.</li>
+      </ol>
+    </div>
+  </section>
+</main>
+
+<script src="data/refs.js"></script>
+<script src="data/articles.js"></script>
+<script src="engine/core.js"></script>
+<script src="engine/anim.js"></script>
+<script src="engine/render.js"></script>
+<script src="decks/index.js"></script>
+<script>
+(function () {
+  'use strict';
+  const APG = window.APG;
+  const list = document.getElementById('list');
+  const ids = Array.isArray(window.APG_DECKS) ? window.APG_DECKS : [];
+  const load = (id) => new Promise((resolve) => {
+    const s = document.createElement('script');
+    s.src = 'decks/' + id + '.js';
+    s.onload = () => resolve(true);
+    s.onerror = () => resolve(false);
+    document.head.appendChild(s);
+  });
+
+  function item(def) {
+    const li = document.createElement('li');
+    li.className = 'gl-deck';
+    const a = document.createElement('a');
+    a.className = 'gl-open';
+    a.href = 'deck.html?d=' + encodeURIComponent(def.id);
+    const thumb = document.createElement('div');
+    thumb.className = 'gl-thumb';
+    thumb.dataset.theme = def.theme || 'classica';
+    const h2 = document.createElement('h2');
+    h2.textContent = def.title;
+    a.append(thumb, h2);
+    li.append(a);
+    if (def.description) {
+      const d = document.createElement('p');
+      d.className = 'gl-desc';
+      d.textContent = def.description;
+      li.append(d);
+    }
+    const meta = document.createElement('p');
+    meta.className = 'gl-meta';
+    const bits = [def.slides.length + ' slides', 'tema ' + (APG.THEME_NAMES[def.theme] || 'Clássica')];
+    const art = def.article != null && APG.articles[def.article];
+    if (art) bits.push('artigo do app: ' + art.title);
+    meta.textContent = bits.join(', ');
+    li.append(meta);
+    return { li, thumb };
+  }
+
+  (async function () {
+    try { await document.fonts.load('600 80px "Cormorant Garamond"'); } catch (e) { /* segue */ }
+    const ok = await Promise.all(ids.map(load));
+    list.textContent = '';
+    if (!ids.length) {
+      list.innerHTML = '<li class="gl-empty">Nenhum deck listado em decks/index.js.</li>';
+      return;
+    }
+    const thumbs = [];
+    ids.forEach((id, i) => {
+      const def = APG.decks[id];
+      if (!ok[i] || !def) {
+        const li = document.createElement('li');
+        li.className = 'gl-error';
+        li.textContent = 'Não consegui carregar decks/' + id + '.js.';
+        list.append(li);
+        return;
+      }
+      const { li, thumb } = item(def);
+      list.append(li);
+      thumbs.push([thumb, def]);
+    });
+    // A capa é o primeiro slide do próprio deck, renderizado parado.
+    thumbs.forEach(([thumb, def]) => APG.render.mountStatic(thumb, def, 0, 'last'));
+  })();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+/* Vitral: nave escura com a luz colorida dos vitrais caindo pelos cantos
+   (rubi, cobalto, esmeralda, âmbar) e um traço de chumbo bem apagado. */
+[data-theme="vitral"] {
+  --letterbox: #04050a;
+  --canvas-solid: #0b0c17;
+  --canvas-bg:
+    radial-gradient(900px 720px at 90% 6%, rgba(168, 30, 56, 0.46) 0%, rgba(168, 30, 56, 0) 70%),
+    radial-gradient(1050px 820px at 2% 98%, rgba(32, 76, 168, 0.5) 0%, rgba(32, 76, 168, 0) 70%),
+    radial-gradient(720px 560px at 100% 100%, rgba(20, 116, 84, 0.34) 0%, rgba(20, 116, 84, 0) 70%),
+    radial-gradient(900px 440px at 38% -8%, rgba(230, 172, 70, 0.17) 0%, rgba(230, 172, 70, 0) 70%),
+    radial-gradient(600px 500px at 4% 4%, rgba(96, 52, 150, 0.3) 0%, rgba(96, 52, 150, 0) 70%),
+    #0a0b15;
+  --canvas-texture:
+    repeating-linear-gradient(62deg, rgba(255, 255, 255, 0.03) 0 1.5px, transparent 1.5px 190px),
+    repeating-linear-gradient(-62deg, rgba(255, 255, 255, 0.03) 0 1.5px, transparent 1.5px 190px);
+  --scrim: #0a0b15;
+  --ink: #f0eadb;
+  --ink-strong: #fbf6ea;
+  --ink-muted: #b6b2ca;
+  --ink-faint: #8984a4;
+  --accent: #e0ad45;
+  --accent-strong: #f2c768;
+  --accent-text: #ebbd5c;
+  --hl-ink: #f5cf74;
+  --ul: #e0ad45;
+  --rule: rgba(224, 173, 69, 0.24);
+  --rule-strong: rgba(224, 173, 69, 0.48);
+  --danger: #f28b82;
+  --grain-opacity: 0.06;
+  --grain-blend: overlay;
+  --qmark-opacity: 0.2;
+  --frame-shadow: 0 40px 100px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.04);
+  --font-display: var(--font-cormorant);
+}

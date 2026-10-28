@@ -1,0 +1,29 @@
+/* Minimal: papel claro e liso, tinta azul-marinho, sans do sistema nos
+   títulos e nada de textura. Para quando o conteúdo precisa ser o único
+   assunto da tela. */
+[data-theme="minimal"] {
+  --letterbox: #dedcd6;
+  --canvas-solid: #f4f3ef;
+  --canvas-bg: #f4f3ef;
+  --scrim: #f4f3ef;
+  --ink: #18212b;
+  --ink-strong: #0f171f;
+  --ink-muted: #59636e;
+  --ink-faint: #858d96;
+  --accent: #1f4f8f;
+  --accent-strong: #1f4f8f;
+  --accent-text: #1f4f8f;
+  --hl-ink: #1f4f8f;
+  --ul: #1f4f8f;
+  --rule: rgba(24, 33, 43, 0.12);
+  --rule-strong: rgba(24, 33, 43, 0.28);
+  --danger: #b3261e;
+  --grain-opacity: 0;
+  --qmark-opacity: 0.1;
+  --past-opacity: 0.32;
+  --frame-shadow: 0 24px 60px rgba(15, 23, 31, 0.16);
+  --font-display: var(--font-ui);
+  --ds: 0.8;
+  --w-text: 500;
+}
+[data-theme="minimal"] .apg-canvas { letter-spacing: -0.01em; }

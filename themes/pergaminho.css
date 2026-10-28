@@ -1,0 +1,30 @@
+/* Pergaminho: papel envelhecido, tinta ferrogálica em sépia e as rubricas em
+   vermelho, como nos manuscritos (o destaque vira rubrica). */
+[data-theme="pergaminho"] {
+  --letterbox: #1c140b;
+  --canvas-solid: #efe2c3;
+  --canvas-bg:
+    radial-gradient(ellipse 120% 100% at 50% 44%, rgba(0, 0, 0, 0) 52%, rgba(98, 62, 22, 0.3) 100%),
+    radial-gradient(1000px 640px at 18% 14%, rgba(255, 249, 232, 0.6) 0%, rgba(255, 249, 232, 0) 70%),
+    radial-gradient(800px 600px at 92% 88%, rgba(150, 104, 44, 0.16) 0%, rgba(150, 104, 44, 0) 70%),
+    linear-gradient(168deg, #f2e6c9 0%, #e7d4ac 100%);
+  --scrim: #ecdcb8;
+  --ink: #2e2012;
+  --ink-strong: #21160a;
+  --ink-muted: #6a5540;
+  --ink-faint: #8b765c;
+  --accent: #8d6a2b;
+  --accent-strong: #8e2a1a;
+  --accent-text: #7c3020;
+  --hl-ink: #962817;
+  --ul: #a2301d;
+  --rule: rgba(105, 74, 36, 0.26);
+  --rule-strong: rgba(105, 74, 36, 0.5);
+  --danger: #a3261b;
+  --grain-opacity: 0.32;
+  --grain-blend: multiply;
+  --qmark-opacity: 0.16;
+  --past-opacity: 0.42;
+  --frame-shadow: 0 28px 60px rgba(72, 46, 16, 0.32), 0 4px 12px rgba(72, 46, 16, 0.22);
+  --font-display: var(--font-cormorant);
+}
