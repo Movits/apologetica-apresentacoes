@@ -504,7 +504,7 @@
     "id": "justino-apologia-1",
     "source": "Teólogos",
     "ref": "Primeira Apologia §66",
-    "text": "\"Esse alimento é chamado entre nós Eucaristia. Ninguém pode participar dele a não ser quem creia ser verdade o que ensinamos, tenha sido lavado pelo banho da remissão dos pecados e do novo nascimento, e viva como Cristo ensinou. Pois não recebemos isso como pão comum ou bebida comum. Como Jesus Cristo, nosso Salvador, encarnou pela Palavra de Deus, assim também esse alimento, sobre o qual se rezou a ação de graças, é a carne e o sangue do mesmo Jesus encarnado.\"",
+    "text": "\"Esse alimento é chamado entre nós Eucaristia. Ninguém pode participar dele a não ser quem creia ser verdade o que ensinamos, tenha sido lavado pelo banho da remissão dos pecados e do novo nascimento, e viva como Cristo ensinou. Pois não recebemos isso como pão comum ou bebida comum. Assim como Jesus Cristo, nosso Salvador, feito carne pela Palavra de Deus, teve carne e sangue para nossa salvação, assim também fomos ensinados que esse alimento, sobre o qual se rezou a ação de graças (...), é a carne e o sangue do mesmo Jesus encarnado.\"",
     "author": "São Justino Mártir (filósofo e mártir)",
     "year": "c. 155 d.C.",
     "fullSource": "Primeira Apologia, capítulo 66, dirigida ao imperador Antonino Pio",
