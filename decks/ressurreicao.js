@@ -1,0 +1,211 @@
+// A Ressurreição de Jesus como fato histórico (artigo 5 do app).
+// Fatos e números como o artigo revisado os traz. Citações literais das refs.
+deck({
+  id: 'ressurreicao',
+  title: 'A Ressurreição de Jesus',
+  description: 'Túmulo vazio, aparições e apóstolos que trocaram o medo pelo martírio: qual explicação dá conta de todos os fatos?',
+  theme: 'classica',
+  lang: 'pt',
+  article: 5,
+  slides: [
+    {
+      type: 'title',
+      kicker: 'A Ressurreição de Jesus',
+      title: 'Mito ou fato histórico?',
+      subtitle: 'O túmulo vazio, as aparições e a transformação dos apóstolos',
+      image: 'article',
+      notes: 'A ressurreição de Jesus é só uma crença religiosa? Ou é um fato que a história precisa explicar? É isso que a gente vai ver hoje. Na tela, A Ceia em Emaús, de Caravaggio, pintada em 1601.',
+    },
+    {
+      type: 'hook',
+      who: 'A objeção',
+      text: 'A ressurreição é um mito. É questão de fé, não de história.',
+      attribution: 'Comentário comum entre céticos',
+      notes: 'Muita gente pensa assim, e é uma objeção séria. Mas repare que a própria Igreja coloca a questão na história. O Catecismo da Igreja Católica, de 1992, no parágrafo 639, chama a ressurreição de um acontecimento real, com manifestações historicamente verificadas, como atesta o Novo Testamento. Então vamos aos fatos. Um homem executado, um túmulo vazio, aparições, e homens que passaram do medo ao martírio. E no fim, a pergunta decisiva: qual explicação dá conta de tudo isso?',
+    },
+    {
+      type: 'quote',
+      ref: 'tacito-anais',
+      text: 'O nome Cristãos vem de Cristo, que, no reinado de Tibério, foi entregue ao suplício pelo procurador Pôncio Pilatos. Essa superstição perniciosa, momentaneamente reprimida, ressurgia de novo, não apenas na Judeia onde nascera o mal, mas também em Roma.',
+      highlight: ['entregue ao suplício pelo procurador Pôncio Pilatos', 'superstição perniciosa'],
+      notes: [
+        'Comecemos por um fato que até um adversário do cristianismo registra. Tácito, historiador romano, nos Anais, escritos por volta do ano 116.',
+        'Tácito era hostil aos cristãos. Ele chama a fé de superstição perniciosa. E mesmo assim registra que Cristo foi executado sob Pôncio Pilatos. A morte de Jesus é o ponto de partida.',
+      ],
+    },
+    {
+      type: 'verse',
+      ref: 'mt-28-1',
+      text: 'Mas o anjo disse às mulheres: “Não temais! Sei que procurais Jesus, que foi crucificado. Não está aqui: ressuscitou como disse. Vinde e vede o lugar em que ele repousou.',
+      refLabel: 'Mateus 28,5-6',
+      highlight: ['Não está aqui', 'ressuscitou como disse'],
+      notes: [
+        'Depois da morte, o túmulo vazio. Evangelho de Mateus, capítulo 28. As mulheres vão ao túmulo no primeiro dia da semana, e o anjo fala com elas.',
+        'Não está aqui. Agora pense comigo. Judeus e romanos tinham interesse claro em mostrar o corpo e acabar com o cristianismo logo no começo. Nunca conseguiram. Porque o corpo não estava lá.',
+      ],
+    },
+    {
+      type: 'stat',
+      value: 500,
+      prefix: 'mais de',
+      label: 'pessoas numa só aparição, muitas ainda vivas quando Paulo escreveu',
+      ref: '1cor-15-3',
+      notes: 'Depois do túmulo vazio, as aparições. Foram muitas, a pessoas sozinhas e a grupos inteiros. São Paulo fala de uma aparição a mais de quinhentas pessoas de uma vez só.',
+    },
+    {
+      type: 'verse',
+      ref: '1cor-15-3',
+      highlight: ['apareceu a Cefas', 'mais de quinhentos irmãos de uma vez', 'a maior parte ainda vive', 'apareceu a Tiago', 'apareceu também a mim'],
+      steps: 'each',
+      notes: [
+        'Primeira Carta aos Coríntios, capítulo 15. Repare como Paulo começa: eu vos transmiti o que eu mesmo havia recebido. É um credo que ele recebeu e passou adiante. Muitos estudiosos, inclusive céticos como Gerd Lüdemann, datam esse credo a poucos anos da crucificação.',
+        'Apareceu a Cefas, quer dizer, a Pedro. Uma aparição a uma pessoa.',
+        'Mais de quinhentos irmãos de uma vez. Um grupo enorme, no mesmo momento.',
+        'E Paulo acrescenta: a maior parte ainda vive. É como dizer: quem duvida pode ir perguntar a eles. Essas testemunhas podiam ser procuradas e interrogadas.',
+        'Apareceu a Tiago. Guarde esse nome, porque ele volta mais adiante, na lista dos fatos mínimos.',
+        'E por último, apareceu também a mim. Aqui o credo já terminou, ele vai até o versículo 7. Agora é o próprio Paulo dando o seu testemunho, ele que antes perseguia a Igreja.',
+      ],
+    },
+    {
+      type: 'compare',
+      title: 'Do medo ao martírio',
+      left: {
+        title: 'Na noite da prisão',
+        items: ['Os apóstolos fogem com medo.'],
+      },
+      right: {
+        title: 'Depois',
+        items: ['Proclamam a ressurreição sob ameaça de morte.', 'Pedro e Tiago, irmão de João, morrem mártires.'],
+      },
+      notes: [
+        'Agora, talvez a evidência mais forte: a transformação dos apóstolos. Na noite em que Jesus foi preso, eles fugiram com medo.',
+        'Pouco tempo depois, esses mesmos homens estão proclamando a ressurreição sob ameaça de morte. E alguns pagaram com a vida.',
+      ],
+    },
+    {
+      type: 'quote',
+      ref: 'clemente-1cor-5',
+      highlight: ['lutaram até a morte', 'Pedro', 'Paulo'],
+      notes: [
+        'Pedro e Paulo. Paulo não estava entre os que fugiram, ele se converteu mais tarde. Os martírios dos dois já aparecem na Primeira Carta de Clemente, bispo de Roma, escrita por volta do ano 96.',
+        'Lutaram até a morte. Pedro depois de muitos sofrimentos. Paulo dando testemunho diante dos governantes. E isso ainda no século primeiro.',
+      ],
+    },
+    {
+      type: 'verse',
+      ref: 'at-12-1',
+      highlight: ['matou à espada Tiago, irmão de João'],
+      notes: [
+        'E não foram só Pedro e Paulo. Atos dos Apóstolos, capítulo 12.',
+        'Tiago, irmão de João, morto à espada. A tradição da Igreja diz que quase todos os apóstolos, menos João, morreram mártires. Para a maioria deles, as fontes são mais tardias, é verdade. Mas o ponto continua de pé: ninguém morre torturado por algo que sabe ser mentira.',
+      ],
+    },
+    {
+      type: 'quote',
+      ref: 'josefo-antiguidades-20',
+      text: 'Anano reuniu o Sinédrio e levou diante deles o irmão de Jesus, chamado Cristo, cujo nome era Tiago, e alguns outros, acusando-os de violar a lei, e os entregou para serem apedrejados.',
+      highlight: ['o irmão de Jesus, chamado Cristo', 'cujo nome era Tiago'],
+      refs: ['gl-1-19'],
+      notes: [
+        'Agora um historiador judeu, que não era cristão. Flávio Josefo, nas Antiguidades Judaicas, escritas por volta dos anos 93 e 94.',
+        'Ele fala de Tiago, irmão de Jesus chamado Cristo, levado à morte pelo Sinédrio no ano 62. Atenção, é outro Tiago, não o irmão de João. É o Tiago que São Paulo chama de irmão do Senhor, em Gálatas 1,19. E Josefo, de passagem, confirma que Jesus existiu.',
+      ],
+    },
+    {
+      type: 'word',
+      ref: 'mt-13-55',
+      refs: ['gn-14-14'],
+      notes: [
+        'Um parêntese rápido sobre essa palavra, irmão. No grego, adelphós.',
+        'É a mesma palavra que o Evangelho usa para os irmãos de Jesus, em Mateus 13,55.',
+        'No judaísmo helenístico ela tinha sentido amplo: irmão, primo ou parente próximo. Em Gênesis 14,14, Ló é chamado adelphós de Abraão, e era sobrinho dele. Tiago é parente de Jesus, não filho biológico de Maria. A Virgindade Perpétua de Maria é doutrina constante da Igreja.',
+      ],
+    },
+    {
+      type: 'points',
+      title: 'Os cinco fatos mínimos',
+      numbered: true,
+      refs: ['habermas-resurreicao'],
+      items: [
+        'Morte por crucificação',
+        { text: 'Túmulo vazio', sub: 'O menos consensual: cerca de 75% de aceitação no levantamento de Habermas' },
+        'Aparições percebidas como reais pelos discípulos',
+        'Conversão de Paulo, de perseguidor a apóstolo',
+        'Conversão de Tiago, parente de Jesus, que antes não cria nele',
+      ],
+      notes: [
+        'Agora junte tudo. Gary Habermas, professor da Liberty University e especialista no tema, apresentou com Michael Licona, no livro O Caso da Ressurreição de Jesus, de 2004, o que ele chama de fatos mínimos. São fatos aceitos pela grande maioria dos historiadores críticos do tema, mesmo os que não creem.',
+        'Um. Jesus morreu crucificado.',
+        'Dois. O túmulo vazio. Esse é o menos consensual, com cerca de 75 por cento de aceitação no levantamento de Habermas. O historiador agnóstico Bart Ehrman, por exemplo, aceita a maior parte desses fatos, mas duvida justamente do túmulo vazio.',
+        'Três. Os discípulos tiveram aparições que perceberam como reais.',
+        'Quatro. Paulo, que perseguia a Igreja, se tornou apóstolo.',
+        'Cinco. Tiago, parente de Jesus, que antes não cria nele, também se converteu.',
+      ],
+    },
+    {
+      type: 'compare',
+      title: 'Qual explicação dá conta de tudo?',
+      left: {
+        title: 'As alternativas',
+        items: ['Alucinação coletiva', 'Roubo do corpo', 'Morte aparente', 'Mito tardio'],
+      },
+      right: {
+        title: 'A ressurreição corporal',
+        items: ['Cada alternativa falha em explicar pelo menos um dos cinco fatos.', 'É a única hipótese que dá conta de todos.'],
+      },
+      notes: [
+        'A pergunta histórica não é se houve evidências. É qual explicação dá conta de todas elas. As alternativas mais conhecidas são estas: alucinação coletiva, roubo do corpo, morte aparente e mito tardio. Sobre o mito tardio, lembre do credo de 1 Coríntios 15. Se ele é de poucos anos depois da crucificação, como datam muitos estudiosos, sobra pouco tempo para um mito crescer.',
+        'Cada uma dessas teorias falha em explicar pelo menos um dos cinco fatos. A única hipótese que dá conta de todos eles ao mesmo tempo é a ressurreição corporal.',
+      ],
+    },
+    {
+      type: 'image',
+      image: 'assets/art/34-ressurreicao-contrad.jpg',
+      caption: '“Não está aqui: ressuscitou como disse” (Mateus 28,6)',
+      credit: 'Piero della Francesca, A Ressurreição (c. 1465). Domínio público.',
+      alt: 'A Ressurreição, de Piero della Francesca',
+      notes: 'Pausa. A Ressurreição, de Piero della Francesca, pintada por volta de 1465. Deixe a imagem respirar por alguns segundos.',
+    },
+    {
+      type: 'quote',
+      ref: 'cic-638',
+      text: 'A ressurreição de Jesus é a verdade culminante da nossa fé em Cristo, acreditada e vivida como verdade central pela primeira comunidade cristã, transmitida como fundamental pela Tradição, estabelecida pelos documentos do Novo Testamento, pregada como parte essencial do mistério pascal, ao mesmo tempo que a cruz.',
+      author: 'Catecismo da Igreja Católica',
+      note: 'promulgado por São João Paulo II',
+      work: 'parágrafo 638',
+      year: '1992',
+      highlight: ['a verdade culminante da nossa fé em Cristo', 'pela primeira comunidade cristã'],
+      notes: [
+        'E para a Igreja isso não é um detalhe. O Catecismo da Igreja Católica, de 1992, no parágrafo 638.',
+        'A verdade culminante da nossa fé em Cristo. E repare: acreditada e vivida como verdade central pela primeira comunidade cristã. Desde o começo.',
+      ],
+    },
+    {
+      type: 'title',
+      kicker: 'Em resumo',
+      title: 'Só uma explicação dá conta de tudo',
+      subtitle: 'Um túmulo vazio, aparições a pessoas e a grupos, apóstolos que trocaram o medo pela pregação sob ameaça de morte',
+      notes: 'Resumindo. A ressurreição não é só uma questão de fé. Um túmulo vazio, centenas de testemunhas e apóstolos que trocaram o medo pela pregação sob ameaça de morte. São fatos que pedem explicação. E só uma hipótese dá conta de todos eles: Jesus ressuscitou de verdade.',
+    },
+    {
+      type: 'questions',
+      items: [
+        'Como homens que fugiram com medo na sexta-feira pregavam em Jerusalém cinquenta dias depois, sob pena de morte?',
+        'Por que ninguém produziu o corpo, se isso bastaria para acabar com o cristianismo nascente?',
+        'O que faz uma pessoa morrer torturada por algo que sabe ser mentira?',
+        'Como a fé na ressurreição surgiu tão cedo, num credo que muitos estudiosos datam a poucos anos da crucificação?',
+      ],
+      notes: [
+        'Deixo quatro perguntas para você pensar, e para levar a quem pensa diferente.',
+        'Como homens que fugiram com medo na sexta-feira estavam pregando em público em Jerusalém cinquenta dias depois, sob pena de morte, dizendo que Jesus ressuscitou?',
+        'Por que ninguém produziu o corpo? Bastaria isso para acabar com o cristianismo nascente.',
+        'O que faz uma pessoa morrer torturada por algo que ela sabe ser mentira?',
+        'Como a fé na ressurreição surgiu tão cedo? O credo de 1 Coríntios 15 é datado por muitos estudiosos a poucos anos da crucificação. Sobra pouco tempo para um mito se formar. Responde aqui nos comentários.',
+      ],
+    },
+    {
+      type: 'sources',
+      notes: 'As fontes estão todas aqui, e o artigo completo está no app APPologética. Até o próximo vídeo.',
+    },
+  ],
+});

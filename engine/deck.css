@@ -5,7 +5,10 @@
 :root {
   --font-ui: "Segoe UI Variable Text", "Segoe UI", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-serif-sys: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", "Noto Serif", serif;
-  --font-cormorant: "Cormorant Garamond", Georgia, serif;
+  /* A Cormorant embarcada não tem letras como ṓ e ḗ (transliteração do grego)
+     nem os acentos combinantes. Gentium e Times New Roman têm, e vêm antes da
+     Georgia, que sem essas letras soltaria o acento da vogal. */
+  --font-cormorant: "Cormorant Garamond", "Gentium Plus", "Times New Roman", Georgia, serif;
   /* Grego e hebraico: a Cormorant embarcada só tem o latim, então a palavra
      original usa a melhor serifa do sistema que tenha esses alfabetos. */
   --font-original: "Gentium Plus", "SBL Greek", "SBL Hebrew", "Times New Roman", Georgia, "Noto Serif", serif;

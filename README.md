@@ -334,7 +334,8 @@ scripts/              sync-refs, check-decks, serve (servidor local) e embed-fon
   `assets/art/` com o mesmo nome.
 - A Cormorant embarcada só tem o alfabeto latino. Palavras em grego e hebraico
   usam a melhor serifa do sistema que tenha esses alfabetos (Times New Roman ou
-  Georgia no Windows).
+  Georgia no Windows). Letras da transliteração que ela não tem (como o ṓ de
+  trṓgō) saem na Times New Roman, com o acento no lugar.
 - Com a janela minimizada ou coberta, o navegador não desenha quadros e as
   animações param. Para gravar, mantenha a janela do deck à vista.
 - O apresentador abre como pop-up: se o navegador bloquear, permita pop-ups
